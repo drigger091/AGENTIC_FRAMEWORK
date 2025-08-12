@@ -4,8 +4,14 @@ __pycache__/
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+!.env.example  # keep a template if needed
 
 # Virtual environments
-.venv
-.env
+.venv/
+venv/
+ENV/
